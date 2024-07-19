@@ -19,7 +19,5 @@
 	};
 </script>
 <script type='text/javascript' src='https://forcecom146-dev-ed.develop.my.site.com/ESWMessageFlowDeployment1718028642963/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-<script src="test.js" type="module"></script>
- <iframe is="x-frame-bypass" src="https://forcecom146-dev-ed.develop.my.site.com"></iframe>
-  </body>
+
 </html>
