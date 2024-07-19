@@ -6,11 +6,11 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00DS9000001FnO1',
-				'WebChatDeployment',
-				'https://yugroup--sivadev.sandbox.my.site.com/ESWWebChatDeployment1720769083209',
+				'00D5h00000932o6',
+				'MessageFlowDeployment',
+				'https://forcecom146-dev-ed.develop.my.site.com/ESWMessageFlowDeployment1718028642963',
 				{
-					scrt2URL: 'https://yugroup--sivadev.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://forcecom146-dev-ed.develop.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,6 +18,7 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://yugroup--sivadev.sandbox.my.site.com/ESWWebChatDeployment1720769083209/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-</body>
+<script type='text/javascript' src='https://forcecom146-dev-ed.develop.my.site.com/ESWMessageFlowDeployment1718028642963/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+  </body>
 </html>
