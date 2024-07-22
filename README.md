@@ -2,7 +2,6 @@
 <html>
   <style>
     html {
-      background-image: url('coffee-salesforce.jpeg');
       background-repeat: norepeat;
       background-size: cover;
     }
@@ -15,7 +14,8 @@
   <head>
     <title>Salesforce Chat - Iframes POC</title>
   </head>
-  <script type="text/javascript" src="path/to/prototype.js"></script>
+  <!--
+  <script type="text/javascript" src="path/to/prototype.js"></script> -->
   <script type="application/javascript">
     window.onmessage = function(e) {
       console.log(e.data.hasOwnProperty("frameHeight"));
@@ -28,7 +28,7 @@
   </script>
   <body>
     <div style ="bottom: 0px; right: 0px; position: absolute;" >
-      <iframe id="chatFrame" src= "https://yugroup--sivadev.sandbox.my.site.com/to/ChatEmbedded.html"></iframe>
+      <iframe id="chatFrame" src= "https://yugroup--sivadev.sandbox.my.site.com/childpage_chat.html"></iframe>
     </div>
   </body>
   
