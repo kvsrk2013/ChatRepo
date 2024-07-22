@@ -54,7 +54,7 @@
             baseLiveAgentContentURL: 'path/to/baseLiveAgentContentURL',
             deploymentId: '572xx0000000001',
             buttonId: '573xx0000000001',
-            baseLiveAgentURL: 'path/to/baseLiveAgentURL',
+            baseLiveAgentURL: 'https://yugroup--sivadev.sandbox.my.site.com',
             eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04IRM0000004Dv12AE_16c4e028e49',
             isOfflineSupportEnabled: true
           }
@@ -92,7 +92,7 @@
 
       if (!window.embedded_svc) {
         var s = document.createElement('script');
-        s.setAttribute('src', '<yourcoreurl>/embeddedservice/5.0/esw.js');
+        s.setAttribute('src', 'https://yugroup--sivadev.sandbox.my.site.com/embeddedservice/5.0/esw.js');
         s.onload = function() {
           initESW(null);
         };
