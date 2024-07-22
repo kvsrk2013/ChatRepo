@@ -28,7 +28,7 @@
   </script>
   <body>
     <div style ="bottom: 0px; right: 0px; position: absolute;" >
-      <iframe id="chatFrame" src= "https://yugroup--sivadev.sandbox.my.site.com/childpage_chat.html"></iframe>
+      <iframe id="chatFrame" src= "https://github.com/kvsrk2013/ChatRepo/childpage_chat.html"></iframe>
     </div>
   </body>
   
