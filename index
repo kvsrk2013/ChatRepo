@@ -1,16 +1,16 @@
 <html>
     <body>
-      <script type='text/javascript'>
+     <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00DPt000000czAX',
+				'00DS9000001FnO1',
 				'WebChatDeployment',
-				'https://yugroup--preprod.sandbox.my.site.com/ESWWebChatDeployment1721301214771',
+				'https://yugroup--sivadev.sandbox.my.site.com/ESWWebChatDeployment1720769083209',
 				{
-					scrt2URL: 'https://yugroup--preprod.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://yugroup--sivadev.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,8 +18,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://yugroup--preprod.sandbox.my.site.com/ESWWebChatDeployment1721301214771/assets/js/bootstrap.min.js' 
-onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://yugroup--sivadev.sandbox.my.site.com/ESWWebChatDeployment1720769083209/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
     </body>
 </html>
 
