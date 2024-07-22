@@ -1,23 +1,35 @@
+<!DOCTYPE html>
 <html>
+  <style>
+    html {
+      background-image: url('coffee-salesforce.jpeg');
+      background-repeat: norepeat;
+      background-size: cover;
+    }
+  iframe{
+    width: 100%;
+    height:100%;
+    border: none;
+  }
+  </style>
+  <head>
+    <title>Salesforce Chat - Iframes POC</title>
+  </head>
+  <script type="text/javascript" src="path/to/prototype.js"></script>
+  <script type="application/javascript">
+    window.onmessage = function(e) {
+      console.log(e.data.hasOwnProperty("frameHeight"));
+      if (e.data.hasOwnProperty("frameHeight")) {
+        var chatFrame = document.getElementById("chatFrame");
+        chatFrame.style.height = e.data.frameHeight + 20 + "px";
+        chatFrame.style.width = e.data.frameWidth + 20 + "px";
+      }
+    };
+  </script>
   <body>
-<script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-
-			embeddedservice_bootstrap.init(
-				'00D5h00000932o6',
-				'MessageFlowDeployment',
-				'https://forcecom146-dev-ed.develop.my.site.com/ESWMessageFlowDeployment1718028642963',
-				{
-					scrt2URL: 'https://forcecom146-dev-ed.develop.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-</script>
-<script type='text/javascript' src='https://forcecom146-dev-ed.develop.my.site.com/ESWMessageFlowDeployment1718028642963/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
+    <div style ="bottom: 0px; right: 0px; position: absolute;" >
+      <iframe id="chatFrame" src= "<yourcoreurl>/to/ChatEmbedded.html"></iframe>
+    </div>
+  </body>
+  
 </html>
