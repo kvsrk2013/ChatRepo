@@ -28,7 +28,7 @@
   </script>
   <body>
     <div style ="bottom: 0px; right: 0px; position: absolute;" >
-      <iframe id="chatFrame" src= "https://yugroup--sivadev.sandbox.my.salesforce-scrt.com"></iframe>
+      <iframe id="chatFrame" src= "https://yugroup--sivadev.sandbox.my.salesforce.com/to/ChatEmbedded.html"></iframe>
     </div>
   </body>
   
