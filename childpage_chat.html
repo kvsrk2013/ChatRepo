@@ -92,13 +92,13 @@
 
       if (!window.embedded_svc) {
         var s = document.createElement('script');
-        s.setAttribute('src', 'https://yugroup--sivadev.sandbox.lightning.force.com/embeddedservice/5.0/esw.js');
+        s.setAttribute('src', 'https://yugroup--sivadev.sandbox.my.salesforce.com/embeddedservice/5.0/esw.js');
         s.onload = function() {
           initESW(null);
         };
         document.body.appendChild(s);
       } else {
-        initESW('https://yugroup--sivadev.sandbox.lightning.force.com/to/esw.js');
+        initESW('https://yugroup--sivadev.sandbox.my.salesforce.com/to/esw.js');
       }
 
     </script>
